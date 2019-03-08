@@ -3,4 +3,5 @@
 
 !.gitignore
 !/Assets/
+/Assets/Oculus
 !/ProjectSettings/
