@@ -11,13 +11,18 @@ public class HitAndFeed : MonoBehaviour
     public GameObject dinosaur;
     public bool switchInput = false;
 
+    void Start()
+    {
+        WriteString("New User", 0.0f);
+    }
+
     // Update is called once per frame
     void Update()
     {
         if (timer)
         {
             timeOfAction += Time.deltaTime;
-            if (Input.GetButtonDown("Fire1"))//Hit
+            if (Input.GetButtonDown("Hit"))//Hit
             {
                 if (switchInput)
                 {
@@ -29,7 +34,7 @@ public class HitAndFeed : MonoBehaviour
                 }
                 dinosaur.SetActive(false);
                 timer = false;
-            } else if (Input.GetButtonDown("Fire2"))//Feed
+            } else if (Input.GetButtonDown("Feed"))//Feed
             {
                 if (switchInput)
                 {
@@ -59,7 +64,7 @@ public class HitAndFeed : MonoBehaviour
         TextAsset asset = Resources.Load<TextAsset>("log");
 
         //Print the text from the file
-        Debug.Log(asset.text);
+        //Debug.Log(asset.text);
     }
 
 }
