@@ -47,7 +47,13 @@ public class HitAndFeed : MonoBehaviour
                 dinosaur.SetActive(false);
                 timer = false;
             }
-        }        
+        }
+        if (Input.GetButtonDown("Reset"))
+        {
+            timer = true;
+            timeOfAction = 0.0f;
+            dinosaur.SetActive(true);
+        }
     }
 
     static void WriteString(string action, float timeOfAction)
