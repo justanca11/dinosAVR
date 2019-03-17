@@ -32,8 +32,7 @@ public class DinoSpawn : MonoBehaviour
 
     private void Spawn()
     {
-        //int dinoOption = Random.Range(0, 2); // returns 0 or 1
-        int dinoOption = 1;
+        int dinoOption = Random.Range(0, 2); // returns 0 or 1
 
         int spawnPos = Random.Range(0, spawnPositions.Length);
 
