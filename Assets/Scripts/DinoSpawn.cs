@@ -10,6 +10,7 @@ public class DinoSpawn : MonoBehaviour
     private GameObject dino;
 
     public float participantNr = 0.0f;
+    public bool switchInput = false;
 
     public GameObject[] spawnPositions;
 

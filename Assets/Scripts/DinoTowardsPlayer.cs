@@ -14,7 +14,10 @@ public class DinoTowardsPlayer : MonoBehaviour
 
     private float timeOfAction = 0.0f;
     private bool timer = false;
-    public bool switchInput = false;
+
+    private GameObject spawnDino;
+    private DinoSpawn setUpScript;
+    //public bool switchInput = false;
 
     private DinoAnimation DinoAnimScript;
 
@@ -23,6 +26,9 @@ public class DinoTowardsPlayer : MonoBehaviour
     {
         Player = GameObject.FindWithTag("Player");
         DinoAnimScript = GameObject.Find("DinoAnim").GetComponent<DinoAnimation>();
+
+        spawnDino = GameObject.Find("SpawnDino");
+        setUpScript = spawnDino.GetComponent<DinoSpawn>();
     }
 
     // Update is called once per frame
@@ -59,7 +65,7 @@ public class DinoTowardsPlayer : MonoBehaviour
                 timeOfAction += Time.deltaTime;
                 if (Input.GetButtonDown("Hit"))
                 {
-                    if (switchInput)
+                    if (setUpScript.switchInput)
                     {
                         WriteString("Feed", timeOfAction);
                     }
@@ -72,7 +78,7 @@ public class DinoTowardsPlayer : MonoBehaviour
                 }
                 else if (Input.GetButtonDown("Feed"))
                 {
-                    if (switchInput)
+                    if (setUpScript.switchInput)
                     {
                         WriteString("Hit", timeOfAction);
                     }
