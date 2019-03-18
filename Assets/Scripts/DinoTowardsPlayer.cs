@@ -37,8 +37,10 @@ public class DinoTowardsPlayer : MonoBehaviour
         //if dino is far from player, go towards player.
         if (Vector3.Distance(transform.position, Player.transform.position) >= MinDist)
         {
-
-            transform.position += transform.forward * MoveSpeed * Time.deltaTime;
+            Vector3 change = transform.forward * MoveSpeed * Time.deltaTime;
+            transform.position += change;
+            transform.position = new Vector3(transform.position.x, 1.5f, transform.position.z);
+            //transform.position = new Vector3(transform.position.x + change.x, transform.position.y, transform.position.z + change.z);
             DinoAnimScript.walking = true;
 
 
