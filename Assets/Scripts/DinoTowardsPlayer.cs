@@ -12,7 +12,6 @@ public class DinoTowardsPlayer : MonoBehaviour
     public int MaxDist = 30;
     public int MinDist = 10;
 
-    public float participantNr = 0.0f;
     private float timeOfAction = 0.0f;
     private bool timer = false;
     public bool switchInput = false;
@@ -24,8 +23,6 @@ public class DinoTowardsPlayer : MonoBehaviour
     {
         Player = GameObject.FindWithTag("Player");
         DinoAnimScript = GameObject.Find("DinoAnim").GetComponent<DinoAnimation>();
-
-        WriteString("New User", participantNr);
     }
 
     // Update is called once per frame

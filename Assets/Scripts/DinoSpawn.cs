@@ -7,6 +7,8 @@ public class DinoSpawn : MonoBehaviour
 
     private GameObject dino;
 
+    public float participantNr = 0.0f;
+
     public GameObject[] spawnPositions;
 
     [SerializeField]
@@ -17,7 +19,7 @@ public class DinoSpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        WriteString("New User", participantNr);
     }
 
     // Update is called once per frame
@@ -39,12 +41,32 @@ public class DinoSpawn : MonoBehaviour
         if (dinoOption == 0)
         {
             // Debug.Log("Spawning real");
+            WriteString("Real dinosaur", 0.0f);
             dino = (GameObject)Instantiate(realDinoPrefab, spawnPositions[spawnPos].transform.position, transform.rotation);
         }
         else
         {
             // Debug.Log("Spawning unreal");
+            WriteString("Unreal dinosaur", 0.0f);
             dino = (GameObject)Instantiate(unrealDinoPrefab, spawnPositions[spawnPos].transform.position, transform.rotation);
         }
+    }
+
+    //Prinf function to log action and time
+    static void WriteString(string action, float timeOfAction)
+    {
+        string path = "Assets/Resources/log.txt";
+
+        //Write some text to the test.txt file
+        StreamWriter writer = new StreamWriter(path, true);
+        writer.WriteLine(action + " " + timeOfAction);
+        writer.Close();
+
+        //Re-import the file to update the reference in the editor
+        AssetDatabase.ImportAsset(path);
+        TextAsset asset = Resources.Load<TextAsset>("log");
+
+        //Print the text from the file
+        //Debug.Log(asset.text);
     }
 }
