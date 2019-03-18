@@ -348,3 +348,29 @@ Hit 0.8716848
 Unreal dinosaur 0
 Hit 0.937709
 Real dinosaur 0
+New User 3
+Unreal dinosaur 0
+New User 3
+Unreal dinosaur 0
+Hit 5.644329
+Real dinosaur 0
+Hit 2.581893
+Unreal dinosaur 0
+New User 3
+Real dinosaur 0
+Hit 1.204849
+Unreal dinosaur 0
+Hit 2.915183
+Real dinosaur 0
+New User 3
+Unreal dinosaur 0
+Hit 4.825756
+Real dinosaur 0
+Hit 2.340109
+Unreal dinosaur 0
+New User 3
+Unreal dinosaur 0
+Hit 0.9357718
+Real dinosaur 0
+Hit 11.72771
+Unreal dinosaur 0
