@@ -9,6 +9,8 @@ public class DinoSpawn : MonoBehaviour
 
     private GameObject dino;
 
+    private int dinoOption = 2;
+
     public float participantNr = 0.0f;
     public bool switchInput = false;
 
@@ -30,15 +32,32 @@ public class DinoSpawn : MonoBehaviour
     {
         if (GameObject.FindWithTag("Dinosaur") == null)
         {
-            Spawn();
+            //there was no previous dino
+            if(dinoOption == 2)
+            {
+                dinoOption = Random.Range(0, 2); // returns 0 or 1
+                SpawnRandom();
+            }
+            //previous dino was real
+            else if(dinoOption == 0)
+            {
+                dinoOption = 1;
+                SpawnRandom();
+            }
+            //previous dino was unreal
+            else if(dinoOption == 1)
+            {
+                dinoOption = 0;
+                SpawnRandom();
+            }
+            
         }
         
     }
 
-    private void Spawn()
+    private void SpawnRandom()
     {
-        int dinoOption = Random.Range(0, 2); // returns 0 or 1
-
+        
         int spawnPos = Random.Range(0, spawnPositions.Length);
 
         if (dinoOption == 0)

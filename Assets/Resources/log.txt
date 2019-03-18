@@ -251,6 +251,10 @@ Real dinosaur 0
 New User 0
 Unreal dinosaur 0
 New User 0
+Unreal dinosaur 0
+New User 0
+Real dinosaur 0
+New User 0
 Real dinosaur 0
 New User 0
 Unreal dinosaur 0
@@ -259,14 +263,88 @@ Real dinosaur 0
 New User 0
 Real dinosaur 0
 New User 0
-Real dinosaur 0
-Hit 1,941445
 Unreal dinosaur 0
-Feed 3,987319
+New User 0
+Unreal dinosaur 0
+New User 0
+Unreal dinosaur 0
+Hit 2.217676
+Unreal dinosaur 0
+Hit 1.100169
+Real dinosaur 0
+New User 0
+Unreal dinosaur 0
+New User 0
 Unreal dinosaur 0
 New User 0
 Real dinosaur 0
-Feed 1,306862
+New User 0
+Real dinosaur 0
+New User 0
 Unreal dinosaur 0
-Hit 1,068073
+New User 0
+New User 0
+New User 0
+New User 0
+New User 0
+Real dinosaur 0
+Hit 1.874994
+Unreal dinosaur 0
+New User 0
+Unreal dinosaur 0
+New User 0
+Unreal dinosaur 0
+Hit 53.15504
+Real dinosaur 0
+Hit 0.467834
+Real dinosaur 0
+Hit 0.7386022
+Real dinosaur 0
+Hit 0.8036729
+Real dinosaur 0
+Hit 0.6009308
+Unreal dinosaur 0
+Hit 9.961573
+Unreal dinosaur 0
+New User 0
+Unreal dinosaur 0
+New User 0
+Unreal dinosaur 0
+New User 0
+Unreal dinosaur 0
+New User 0
+Real dinosaur 0
+New User 0
+Unreal dinosaur 0
+New User 0
+Real dinosaur 0
+Feed 32.74614
+Unreal dinosaur 0
+Hit 6.431351
+Real dinosaur 0
+Hit 1.609705
+Unreal dinosaur 0
+Hit 1.406955
+Real dinosaur 0
+New User 1
+Real dinosaur 0
+Hit 14.74467
+Unreal dinosaur 0
+Hit 0.8803655
+Real dinosaur 0
+New User 1
+Unreal dinosaur 0
+Hit 5.130098
+Real dinosaur 0
+Hit 2.717589
+Unreal dinosaur 0
+New User 2
+Real dinosaur 0
+Hit 10.42145
+Unreal dinosaur 0
+Hit 1.311691
+Real dinosaur 0
+Hit 0.8716848
+Unreal dinosaur 0
+Hit 0.937709
 Real dinosaur 0
