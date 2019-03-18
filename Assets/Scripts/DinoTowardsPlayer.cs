@@ -3,9 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System.IO;
+using Valve.VR;
+
 
 public class DinoTowardsPlayer : MonoBehaviour
 {
+
+    public SteamVR_Input_Sources handType;
+    public SteamVR_Action_Boolean hit;
+    public SteamVR_Action_Boolean feed;
 
     private GameObject Player;
     public int MoveSpeed = 4;
@@ -23,14 +29,33 @@ public class DinoTowardsPlayer : MonoBehaviour
     {
         Player = GameObject.FindWithTag("Player");
         DinoAnimScript = GameObject.Find("DinoAnim").GetComponent<DinoAnimation>();
+        print(Input.GetJoystickNames());
     }
 
+    public bool GetHit()
+    {
+        return hit.GetStateDown(handType);
+    }
+
+    public bool GetFeed()
+    {
+        return feed.GetStateDown(handType);
+    }
     // Update is called once per frame
     void Update()
     {
         //always look at player
         transform.LookAt(Player.transform.position);
+        if (GetHit())
+        {
+            print("hit");
 
+        }
+        if (GetFeed())
+        {
+            print("feed");
+
+        }
         //if dino is far from player, go towards player.
         if (Vector3.Distance(transform.position, Player.transform.position) >= MinDist)
         {
@@ -57,7 +82,7 @@ public class DinoTowardsPlayer : MonoBehaviour
             {
                 //Update time
                 timeOfAction += Time.deltaTime;
-                if (Input.GetButtonDown("Hit"))
+                if (Input.GetButtonDown("Hit") || GetHit()) 
                 {
                     if (switchInput)
                     {
@@ -70,7 +95,7 @@ public class DinoTowardsPlayer : MonoBehaviour
                     timer = false;
                     Destroy(gameObject);
                 }
-                else if (Input.GetButtonDown("Feed"))
+                else if (Input.GetButtonDown("Feed") || GetFeed())
                 {
                     if (switchInput)
                     {

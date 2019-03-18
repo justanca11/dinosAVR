@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System.IO;
+using Valve.VR;
 
 public class HitAndFeed : MonoBehaviour
 {
@@ -14,13 +15,18 @@ public class HitAndFeed : MonoBehaviour
     void Start()
     {
         WriteString("New User", 0.0f);
+        Input.GetJoystickNames();
     }
 
     // Update is called once per frame
     void Update()
     {
         dinosaur = GameObject.FindWithTag("Dinosaur");
-
+        if(Input.anyKeyDown)
+        {
+            print(Input.inputString);
+            
+        }
         if (timer)
         {
             timeOfAction += Time.deltaTime;
