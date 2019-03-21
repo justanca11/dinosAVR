@@ -1,376 +1,102 @@
 New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-Hit 17,52437
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-Feed 14,86464
-New User 0
-Hit 23,9097
-New User 0
-Feed 6,433306
-New User 0
-Hit 30,00497
-New User 0
-New User 0
-New User 0
-Hit 23,70949
-New User 0
-New User 0
-Hit 4,453807
-Feed 2,472325
-New User 0
-Feed 0,06714803
-Hit 1,40367
-New User 0
-Hit 8,536399
-New User 0
-New User 0
-Hit 3,769351
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-Hit 1,070698
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-Hit 9,158903
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-Hit 8,21519
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-Hit 5,710255
-New User 0
-Feed 0,5562204
-New User 0
-Hit 0,7142751
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
 Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-Hit 10,18043
-Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
+Hit 62.75583
 Real dinosaur 0
-Hit 3,219469
-Real dinosaur 0
-Feed 0,7767092
-Real dinosaur 0
-Feed 1,110507
-Real dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Real dinosaur 0
-Hit 12,3519
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Unreal dinosaur 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Unreal dinosaur 0
-Hit 5,133904
-Unreal dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-Hit 2.217676
-Unreal dinosaur 0
-Hit 1.100169
-Real dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-New User 0
-New User 0
-New User 0
-New User 0
-Real dinosaur 0
-Hit 1.874994
-Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-Hit 53.15504
-Real dinosaur 0
-Hit 0.467834
-Real dinosaur 0
-Hit 0.7386022
-Real dinosaur 0
-Hit 0.8036729
-Real dinosaur 0
-Hit 0.6009308
-Unreal dinosaur 0
-Hit 9.961573
-Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Real dinosaur 0
-New User 0
-Unreal dinosaur 0
-New User 0
-Real dinosaur 0
-Feed 32.74614
-Unreal dinosaur 0
-Hit 6.431351
-Real dinosaur 0
-Hit 1.609705
-Unreal dinosaur 0
-Hit 1.406955
-Real dinosaur 0
+Hit 2.487856
 New User 1
 Real dinosaur 0
-Hit 14.74467
+Feed 3.150063
 Unreal dinosaur 0
-Hit 0.8803655
-Real dinosaur 0
-New User 1
-Unreal dinosaur 0
-Hit 5.130098
-Real dinosaur 0
-Hit 2.717589
-Unreal dinosaur 0
+Hit 1.070632
 New User 2
+Unreal dinosaur 0
+Hit 3.550819
 Real dinosaur 0
-Hit 10.42145
-Unreal dinosaur 0
-Hit 1.311691
-Real dinosaur 0
-Hit 0.8716848
-Unreal dinosaur 0
-Hit 0.937709
-Real dinosaur 0
-New User 3
-Unreal dinosaur 0
-New User 3
-Unreal dinosaur 0
-Hit 5.644329
-Real dinosaur 0
-Hit 2.581893
-Unreal dinosaur 0
+Feed 0.935797
 New User 3
 Real dinosaur 0
-Hit 1.204849
+Feed 5.766228
 Unreal dinosaur 0
-Hit 2.915183
+Feed 0.2679698
+New User 4
+Unreal dinosaur 0
+Hit 5.494473
 Real dinosaur 0
-New User 3
-Unreal dinosaur 0
-Hit 4.825756
+Hit 2.545621
+New User 5
 Real dinosaur 0
-Hit 2.340109
+Feed 2.545563
 Unreal dinosaur 0
-New User 3
-Unreal dinosaur 0
-Hit 0.9357718
+Feed 5.426811
+New User 6
 Real dinosaur 0
-Hit 11.72771
+Hit 0.8715534
 Unreal dinosaur 0
+Feed 1.610179
+New User 7
+Unreal dinosaur 0
+Feed 17.91927
+Real dinosaur 0
+Feed 1.675242
+New User 8
+Real dinosaur 0
+Hit 4.491282
+Unreal dinosaur 0
+Feed 1.673052
+New User 9
+Unreal dinosaur 0
+Hit 0.1383157
+Real dinosaur 0
+Feed 0.6018566
+New User 10
+Real dinosaur 0
+Feed 9.756168
+Unreal dinosaur 0
+Feed 6.636807
+New User 11
+Unreal dinosaur 0
+New User 12
+Real dinosaur 0
+Feed 23.18982
+Unreal dinosaur 0
+Feed 2.210949
+New User 13
+Real dinosaur 0
+Hit 5.318396
+Unreal dinosaur 0
+Feed 0.7066005
+New User 14
+Real dinosaur 0
+Feed 12.39157
+Unreal dinosaur 0
+Feed 1.477387
+New User 15
+Unreal dinosaur 0
+Hit 2.214157
+Real dinosaur 0
+Hit 0.1317914
+New User 16
+Unreal dinosaur 0
+Feed 11.85924
+Real dinosaur 0
+Hit 0.5344272
+New User 17
+Unreal dinosaur 0
+Feed 47.87284
+Real dinosaur 0
+Hit 0.3333613
+New User 18
+Unreal dinosaur 0
+Hit 0.6683925
+Real dinosaur 0
+Hit 0.9392602
+New User 19
+Unreal dinosaur 0
+Hit 0.6664585
+Real dinosaur 0
+Feed 0.7406508
+New User 20
+Unreal dinosaur 0
+Feed 0.5352101
+Real dinosaur 0
+Hit 1.005747

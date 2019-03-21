@@ -10,8 +10,9 @@ public class DinoSpawn : MonoBehaviour
     private GameObject dino;
 
     private int dinoOption = 2;
+    private int counter = 0;
 
-    public float participantNr = 0.0f;
+    private float participantNr;
     public bool switchInput = false;
 
     public GameObject[] spawnPositions;
@@ -24,13 +25,14 @@ public class DinoSpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        participantNr = PlayerPrefs.GetFloat("UserNumber", 0.0f);
         WriteString("New User", participantNr);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.FindWithTag("Dinosaur") == null)
+        if (GameObject.FindWithTag("Dinosaur") == null && counter < 2)
         {
             //there was no previous dino
             if(dinoOption == 2)
@@ -57,7 +59,7 @@ public class DinoSpawn : MonoBehaviour
 
     private void SpawnRandom()
     {
-        
+        counter++;
         int spawnPos = Random.Range(0, spawnPositions.Length);
 
         if (dinoOption == 0)
@@ -90,5 +92,12 @@ public class DinoSpawn : MonoBehaviour
 
         //Print the text from the file
         //Debug.Log(asset.text);
+    }
+
+    public void OnDestroy()
+    {
+        print("hello");
+        participantNr += 1.0f;
+        PlayerPrefs.SetFloat("UserNumber", participantNr);
     }
 }

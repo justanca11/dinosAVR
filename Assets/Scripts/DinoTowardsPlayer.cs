@@ -51,16 +51,16 @@ public class DinoTowardsPlayer : MonoBehaviour
     {
         //always look at player
         transform.LookAt(Player.transform.position);
-        if (GetHit())
-        {
-            print("hit");
+        //if (GetHit())
+        //{
+        //    print("hit");
 
-        }
-        if (GetFeed())
-        {
-            print("feed");
+        //}
+        //if (GetFeed())
+        //{
+        //    print("feed");
 
-        }
+        //}
         //if dino is far from player, go towards player.
         if (Vector3.Distance(transform.position, Player.transform.position) >= MinDist)
         {
@@ -87,7 +87,7 @@ public class DinoTowardsPlayer : MonoBehaviour
             {
                 //Update time
                 timeOfAction += Time.deltaTime;
-                if (Input.GetButtonDown("Hit") || GetHit()) 
+                if (GetHit()) 
                 {
                     if (setUpScript.switchInput)
                     {
@@ -100,7 +100,7 @@ public class DinoTowardsPlayer : MonoBehaviour
                     timer = false;
                     Destroy(gameObject);
                 }
-                else if (Input.GetButtonDown("Feed") || GetFeed())
+                if (GetFeed())
                 {
                     if (setUpScript.switchInput)
                     {
