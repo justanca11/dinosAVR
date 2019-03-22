@@ -87,7 +87,7 @@ public class DinoTowardsPlayer : MonoBehaviour
             {
                 //Update time
                 timeOfAction += Time.deltaTime;
-                if (GetHit()) 
+                if (Input.GetButtonDown("Hit")) 
                 {
                     if (setUpScript.switchInput)
                     {
@@ -100,7 +100,7 @@ public class DinoTowardsPlayer : MonoBehaviour
                     timer = false;
                     Destroy(gameObject);
                 }
-                if (GetFeed())
+                if (Input.GetButtonDown("Feed"))
                 {
                     if (setUpScript.switchInput)
                     {
@@ -126,7 +126,7 @@ public class DinoTowardsPlayer : MonoBehaviour
     //Prinf function to log action and time
     static void WriteString(string action, float timeOfAction)
     {
-        string path = "Assets/Resources/log.txt";
+        string path = "Assets/Resources/logK.txt";
 
         //Write some text to the test.txt file
         StreamWriter writer = new StreamWriter(path, true);
@@ -135,7 +135,7 @@ public class DinoTowardsPlayer : MonoBehaviour
 
         //Re-import the file to update the reference in the editor
         AssetDatabase.ImportAsset(path);
-        TextAsset asset = Resources.Load<TextAsset>("log");
+        TextAsset asset = Resources.Load<TextAsset>("logK");
 
         //Print the text from the file
         //Debug.Log(asset.text);

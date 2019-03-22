@@ -26,6 +26,7 @@ public class DinoSpawn : MonoBehaviour
     void Start()
     {
         participantNr = PlayerPrefs.GetFloat("UserNumber", 0.0f);
+        //PlayerPrefs.SetFloat("UserNumber", 0.0f);
         WriteString("New User", participantNr);
     }
 
@@ -79,7 +80,7 @@ public class DinoSpawn : MonoBehaviour
     //Prinf function to log action and time
     static void WriteString(string action, float timeOfAction)
     {
-        string path = "Assets/Resources/log.txt";
+        string path = "Assets/Resources/logK.txt";
 
         //Write some text to the test.txt file
         StreamWriter writer = new StreamWriter(path, true);
@@ -88,7 +89,7 @@ public class DinoSpawn : MonoBehaviour
 
         //Re-import the file to update the reference in the editor
         AssetDatabase.ImportAsset(path);
-        TextAsset asset = Resources.Load<TextAsset>("log");
+        TextAsset asset = Resources.Load<TextAsset>("logK");
 
         //Print the text from the file
         //Debug.Log(asset.text);

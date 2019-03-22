@@ -1,0 +1,25 @@
+New User 0
+Unreal dinosaur 0
+Feed 10,95307
+Real dinosaur 0
+Hit 4,973898
+New User 1
+Real dinosaur 0
+Hit 4,247654
+Unreal dinosaur 0
+Feed 4,245746
+New User 2
+Unreal dinosaur 0
+Feed 11,86212
+Real dinosaur 0
+Hit 3,309988
+New User 3
+Unreal dinosaur 0
+Feed 6,887695
+Real dinosaur 0
+Feed 2,957171
+New User 4
+Unreal dinosaur 0
+Hit 3,243615
+Real dinosaur 0
+Hit 9,39959
